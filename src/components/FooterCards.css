@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+
+  
+  
+  font-family:'Open Sans,sans-serif';  
+}
+
+.footercards{
+    display:flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    margin:5px 0;
+}
+.cards{
+    flex:1;
+    border:1px solid black;
+    background-color:rgba(17, 187, 199, 0.685);
+    margin:10px;
+    border-radius:5px;
+    text-align:center;
+    
+}

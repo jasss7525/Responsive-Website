@@ -1,0 +1,123 @@
+.footer-container{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.89),rgba(20, 20, 20, 0.616)),url('../components/images/laptop.jpg');
+    height:450px;
+    background-position: relative;
+    background-size: cover;
+    background-position: cover ;
+    background-repeat: no-repeat;
+    position:relative;
+
+}
+.content{
+    display: flexbox;
+    color:white;
+    position: absolute;
+    top:50%;    
+    left:50%;
+    transform: translate(-48.5%,-260%)
+}
+#services {
+    color:white;
+    font-size:22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 9px;
+
+}
+
+.services-para{
+    position: absolute;
+    top:99px;
+    min-width:200px;
+    margin-left:200px;
+    margin-right:200px;
+    font-size:11px;
+    color:white;
+    text-align:center;
+}
+
+#service{
+    color:rgb(30, 241, 241);
+}
+
+.Branding{
+    position: relative;
+    color:white;
+    width:20vw;
+    flex-direction: row;
+    float:left;
+    top:200px;
+    left:60px;
+    background-color:rgb(59, 78, 80);
+    margin-right:17px;
+    text-align:center;
+    border-radius:3px;
+    padding:10px;
+    
+}
+.Branding p{
+    font-size:11px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.Branding h3{
+    color:rgb(235, 228, 228);
+    letter-spacing: 1px;
+    word-spacing:9px;
+}
+#line{
+    position: relative;
+    top:-13px;
+    left:50px;
+    height:3px;
+    width:100px;
+    background-color:rgb(14, 247, 255);
+    border-radius:13px;
+}
+
+@media screen and (max-width:1180px){
+      .footer-container{   
+        margin-top:50px;
+        height:730px;
+      }
+      .Branding{
+          min-width:95%;
+
+          background-color:transparent;
+          left:0;
+          text-align: center;
+      }
+      .services-para{
+          min-width:270px;
+          display:flex;
+          flex-wrap:wrap;
+          position: absolute;
+          text-align: center;
+          left:-90px;
+          
+          }
+      .content{
+          position: absolute;
+          top:210px;
+      }
+  }
+
+  @media screen and (max-width:800px) {
+      .services-para{
+          position: absolute;
+          left:20px;
+      }
+      
+  }
+  @media screen and (max-width:700px) {
+      .services-para{
+          display:none;
+
+      }
+      
+      .Branding{
+          top:90px;
+      }
+  }
